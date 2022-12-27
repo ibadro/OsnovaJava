@@ -1,0 +1,22 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ô˜‹
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ô˜‹
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ô˜‹
+d
+java:S1104	"NMake in a static final constant or non-public and provide accessors if needed.(î“±
+>
+java:S1444	"(Make this "public static in" field final(î“±
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—«áÅ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õó’
+U
+java:S1659"?Declare "Ğ¬" and all following declarations on a separate line.(¸Ô˜‹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†Š·’
+=
+java:S1481"'Remove this unused "Ğ°" local variable.(¸Ô˜‹
+=
+java:S1481"'Remove this unused "Ğ¬" local variable.(¸Ô˜‹
+=
+java:S1481"'Remove this unused "Ñ" local variable.(¸Ô˜‹
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Áôõôúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°ˆÜ”
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü

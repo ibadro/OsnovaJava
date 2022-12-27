@@ -1,0 +1,15 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äâ¸¨úÿÿÿÿ
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(×‚Ôµÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µ•ñ´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÃùÔ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÃùÔ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÃùÔ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(³´Ö½
+Q	java:S125"<This block of commented-out lines of code should be removed.(Û‹™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ì­™¤
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÃÓÜıÿÿÿÿ
