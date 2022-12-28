@@ -19,5 +19,27 @@ C:/Java_proj/OsnovaJava/Hiber/src/spring_introduction/hibernate.cfg.xml</remarks
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="resources:hibernate.cfg.xml/Hibernate" uuid="598631eb-5eaa-4942-a1ca-ab2782670250">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Java_proj/OsnovaJava/Hiber/src/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="dataSource2" uuid="31e9b734-dd89-4e0d-b9a1-fe0f7ed73f4b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>c3p0
+
+C:/Java_proj/OsnovaJava/Hiber_MVC_AOP/src/main/webapp/view/applicationContext.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres?useSSL=false&amp;amp;serverTimezone=UTC</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

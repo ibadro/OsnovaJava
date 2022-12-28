@@ -10,10 +10,14 @@
         <module name="Hiber" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hiber_MVC_AOP" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Hiber" options="-parameters" />
+      <module name="Hiber_MVC_AOP" options="-parameters" />
       <module name="OsnovaJava" options="" />
     </option>
   </component>
