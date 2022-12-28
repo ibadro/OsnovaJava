@@ -5,9 +5,10 @@
       <configuration>
         <datasource-map>
           <unit-entry name="hibernate.cfg.xml" value="961d8236-214b-4084-a8e6-a81c6122c30c" />
+          <unit-entry name="spring_introduction:hibernate.cfg.xml" value="871f771d-4837-4eef-9483-5c8b10cdb024" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Hiber/src/spring_introduction/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Hiber/src/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>

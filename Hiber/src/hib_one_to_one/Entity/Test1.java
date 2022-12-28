@@ -1,4 +1,6 @@
-package hib_test.Entity;
+package hib_one_to_one.Entity;
+
+
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -9,18 +11,18 @@ public class Test1 {
         SessionFactory factory = new Configuration()
                 .configure("resources/hibernate.cfg.xml")
                 .addAnnotatedClass(Employee.class)
+                .addAnnotatedClass(Detail.class) // Добавляем детайл класс
                 .buildSessionFactory();
         try {
             Session session = factory.getCurrentSession();
-            Employee employee = new Employee("ilnur", "biwqerg", "34it", 500);
-            Employee employee2 = new Employee("Ilnur", "biwsdfsdqerg", "34it", 500);
-            Employee employee21 = new Employee("Ilnur", "bisdfsdfwqerg", "34it", 500);
+            Employee employee = new Employee("ilnur", "big", "it", 1000);
+            Detail detail = new Detail("Ekat", "52533", "werwe@fd.com");
+            employee.setEmpDetail(detail);
             session.beginTransaction();
             session.save(employee);
-            session.save(employee21);
-            session.save(employee2);
             session.getTransaction().commit(); // всегда нужно закрывать сессию
-            System.out.println(employee.toString());
+            System.out.println("done!");
+
         } finally {
             factory.close();
         }

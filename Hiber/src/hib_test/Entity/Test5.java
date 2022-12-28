@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 public class Test5 {
     public static void main(String[] args) {
         SessionFactory factory = new Configuration()
-                .configure("spring_introduction/hibernate.cfg.xml") // имя можно не писать
+                .configure("resources/hibernate.cfg.xml") // имя можно не писать
                 .addAnnotatedClass(Employee.class)
                 .buildSessionFactory();
         try {
