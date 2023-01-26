@@ -3,7 +3,7 @@ package Black_Belt.t_4_Iterable.collection.List.arrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayListMethods4 {
+public class  ArrayListMethods4 {
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder("A");
         StringBuilder sb2 = new StringBuilder("B");

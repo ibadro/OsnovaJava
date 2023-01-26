@@ -8,7 +8,7 @@ public class FileReaderEx1 {
     public static void main(String[] args) throws IOException {
         FileReader reader= null;
         try {
-            reader = new FileReader("Test3.txt");
+            reader = new FileReader("Test2.txt");
             int character;
             while ((character = reader.read()) != -1){
                 System.out.print((char)character);

@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Hiber_MVC_AOP" target="17" />
+      <module name="spring-course" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -19,6 +20,7 @@
       <module name="Hiber" options="-parameters" />
       <module name="Hiber_MVC_AOP" options="-parameters" />
       <module name="OsnovaJava" options="" />
+      <module name="spring-course" options="" />
     </option>
   </component>
 </project>

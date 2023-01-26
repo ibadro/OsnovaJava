@@ -8,7 +8,7 @@ public class Example2 {
     public static void main(String[] args) throws ClassNotFoundException,
             IllegalAccessException, InstantiationException, NoSuchMethodException,
             InvocationTargetException {
-        Class employeeClass = Class.forName("t_11_Other.Reflection.Employee");
+        Class employeeClass = Class.forName("Black_Belt.t_11_Other.Reflection.Employee");
 
         Object o = employeeClass.newInstance(); // устаревший метод
 

@@ -6,14 +6,14 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
-public class Example1 {
+public class  Example1 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, NoSuchMethodException {
-        Class employeeClass = Class.forName("t_11_Other.Reflection.Employee"); // 1 вариант
+        Class employeeClass = Class.forName("Black_Belt.t_11_Other.Reflection.Employee"); // 1 вариант
 
-        Class employeeClass2 = Employee.class; // 2 вариант
-
-        Employee emp = new Employee();
-        Class employeeClass3 = emp.getClass(); // 3 вариант
+//        Class employeeClass2 = Employee.class; // 2 вариант
+//
+//        Employee emp = new Employee();
+//        Class employeeClass3 = emp.getClass(); // 3 вариант
 
         /** Получить информацию о поле о котором знаешь */
         Field someField = employeeClass.getField("id"); // getField() дай поле, если поля нет выбросится NoSuchFieldException

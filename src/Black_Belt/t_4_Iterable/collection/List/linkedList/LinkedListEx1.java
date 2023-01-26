@@ -2,7 +2,7 @@ package Black_Belt.t_4_Iterable.collection.List.linkedList;
 
 import java.util.LinkedList;
 
-public class LinkedListEx1 {
+public class  LinkedListEx1 {
     public static void main(String[] args) {
         Student st1 = new Student("Иван", 3);
         Student st2 = new Student("Николай", 2);
